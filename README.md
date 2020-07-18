@@ -9,8 +9,7 @@
 ``` python== 3.5 or up and django==3.0
 ```
 ## Installing
-``` open terminal and type
-```
+``` open terminal and type```
 ``` git clone  https://github.com/art3mis69/Django-Web-scraper.git 
 ```
 ## To migrate the database open terminal in project directory and type
