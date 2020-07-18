@@ -6,30 +6,22 @@
 * Materialize from https://materializecss.com/
 * Django https://docs.djangoproject.com/en/3.0/
 ## Prerequisites
-``` python== 3.5 or up and django==3.0
-```
+<pre>python== 3.5 or up and django==2.1.4</pre>
 ## Installing
-``` open terminal and type```
-``` git clone  https://github.com/art3mis69/Django-Web-scraper.git 
-```
+<pre>open terminal and type</pre><br>
+<code>git clone  https://github.com/art3mis69/Django-Web-scraper.git</code><br>
 ## To migrate the database open terminal in project directory and type
-``` python manage.py makemigrations
-```
-``` python manage.py migrate
-```
+<code>python manage.py makemigrations</code><br>
+<code>python manage.py migrate</code><br>
 ## Playing with the API
-``` python manage.py shell
-```
+<code>python manage.py shell</code>
 ## Creating an admin user
 First we’ll need to create a user who can login to the admin site. Run the following command:
-``` python manage.py createsuperuser
-```
+<code>python manage.py createsuperuser</code>
 Enter your desired username and press enter.
-``` Username: admin
-```
+<pre>Username: admin</pre>
 You will then be prompted for your desired email address:
-``` Email address: admin@example.com
-```
+<pre>Email address: admin@example.com</pre>
 The final step is to enter your password. You will be asked to enter your password twice, the second time as a confirmation of the first.
 ``` Password: **********
 Password (again): *********
@@ -37,6 +29,5 @@ Superuser created successfully.
 ```
 ## The development server
 run the following commands:
-``` python manage.py runserver.
-```
+<code>python manage.py runserver.</code>
 Now, open a Web browser and go to “/admin/” on your local domain – e.g., http://127.0.0.1:8000/admin/.
