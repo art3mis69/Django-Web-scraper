@@ -29,5 +29,5 @@ Superuser created successfully.
 ```
 ## The development server
 run the following commands:
-<code>python manage.py runserver.</code>
+<code>python manage.py runserver.</code><br>
 Now, open a Web browser and go to “/admin/” on your local domain – e.g., http://127.0.0.1:8000/admin/.
