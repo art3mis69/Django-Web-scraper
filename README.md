@@ -27,6 +27,9 @@ The final step is to enter your password. You will be asked to enter your passwo
 Password (again): *********
 Superuser created successfully.
 ```
+## Django-app
+Consists of Web Interface,where you can Search the craigslist Website on Beautiful Web UI
+
 ## The development server
 run the following commands:
 <code>python manage.py runserver.</code><br>
